@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>上传照片</title>
+	<link rel="stylesheet" type="text/css" href="http://g.alicdn.com/sj/dpl/1.5.1/css/sui.min.css">
+	<link rel="stylesheet" type="text/css" href="http://g.alicdn.com/sj/dpl/1.5.1/css/sui-append.css">
+	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="http://g.alicdn.com/sj/dpl/1.5.1/js/sui.min.js"></script>
+	<style type="text/css">
+		body{line-height: normal;font-size: 1em;}
+		.content,{width: 80%;height: auto;margin: 30px auto;}
+		.box{width: 100%;height: auto;border: 1px dotted #ddd;margin: 30px auto;text-align: center;}
+		.preview, .queueList{width: auto;height: auto;margin: 20px; text-align: center;}
+		.preview img{width: 150px;height: auto;padding:30px 30px;vertical-align: middle;}
+		.sui-progress{display: none;}
+		button.add{margin: 30px auto;}
+		.upload{width: 70%;height: auto;margin: 30px auto;text-align: center;}
+		.hidden{display: none;}
+	</style>
+</head>
+<body>
+	<br>
+	<p align="center">恭喜您，上传成功！您图片的评价结果以及排名请看显示屏。 </p>
+	
+	
+	<div align="center"><button align="center" type="button" class="sui-btn btn-primary add"  onClick="myClick()"   style="width:150px;height:30px" style="font-size:100px">重新上传</button></div>
+	
+
+</body>
+
+
+<script>
+function myClick()
+{
+	window.location.href="lammyUploadImage.html";  //将本页替换成新页面
+	//window.open("lammyUploadImage.html");  //弹出一个新页面
+}
+</script>
+</html>
